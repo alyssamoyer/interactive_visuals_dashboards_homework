@@ -7,7 +7,7 @@ function optionChanged() {
 }
 
 
-function plot(subjectId) {
+//function plot(subjectId) {
     d3.json("../../samples.json").then(function(data){
 
 
@@ -34,6 +34,8 @@ function plot(subjectId) {
         //do subjectFilter.dataname to create plots
         //how to position the charts
 
+        //create function inside of json?
+
 
 
 
@@ -48,4 +50,4 @@ function plot(subjectId) {
 
     });
 
-}
+//}
