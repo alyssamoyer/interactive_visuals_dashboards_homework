@@ -30,7 +30,7 @@ function createDropDown(data) {
 };
 
 function buildPlot(subjectId) {
-    d3.json("../../samples.json").then(function(data) {
+    d3.json("samples.json").then(function(data) {
     
     console.log(data);
 
@@ -138,4 +138,4 @@ function buildPlot(subjectId) {
 };
 
 
-d3.json("../../samples.json").then (createDropDown);
+d3.json("samples.json").then (createDropDown);
